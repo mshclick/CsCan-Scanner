@@ -14,7 +14,7 @@ Lightweight, fully-open-source tool that:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 | Feature            | Description                                                   |
 | ------------------ | ------------------------------------------------------------- |
-| **Sitemap-first**  | Auto-discovers every `<loc>` in robots.txt → sitemap.xml      |
+| **Sitemap-first**  | Auto-discovers every `<loc>` in → sitemap.xml                 |
 | **Custom lists**   | add your custom link.txt file                                 |
 | **JS hunter**      | Collects `<script src="…">` as absolute URLs                  |
 | **Version mining** | CDN paths, comment headers, `*.version`, source-maps, regex   |
