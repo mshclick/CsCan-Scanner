@@ -2,13 +2,15 @@
 Crawl sitemap, collect JS files, extract versions and check local CVE database in one command.
 
 CsCan – Web Asset & CVE Scanner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Lightweight, fully-open-source tool that:
-  -Crawls sitemap.xml (or your own URL list)
-  -Harvests JavaScript files
-  -Extracts library versions from URLs, headers, source-maps & code
-  -Checks them against a local CVE dump (no API calls required)
-  -Reports vulnerable dependencies in seconds
-  -Auto clear cache
+-Crawls sitemap.xml (or your own URL list)
+-Harvests JavaScript files
+-Extracts library versions from URLs, headers, source-maps & code
+-Checks them against a local CVE dump (no API calls required)
+-Reports vulnerable dependencies in seconds
+-Auto clear cache
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 | Feature            | Description                                                   |
 | ------------------ | ------------------------------------------------------------- |
