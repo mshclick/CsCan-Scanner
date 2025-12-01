@@ -20,9 +20,3 @@ Lightweight, fully-open-source tool that:
 | **Coloured CLI**   | Green = clean, orange = version, red = CVE                    |
 | **Pure Python 3**  | Only `requests` & `colorama` dependencies                     |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-CsCan/
-├── main.py              # Main scanner
-├── cve_check.py     # Optional live NVD lookup
-├── cve.json              # Local CVE dump (NVD)
-└── README.md             # This file
