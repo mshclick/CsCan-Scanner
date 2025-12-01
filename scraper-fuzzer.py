@@ -2,7 +2,6 @@ import json,requests,os,time,bs4,urllib.parse,re,sys,subprocess
 import xml.etree.ElementTree as ET
 from colorama import Fore
 base_url = input(Fore.BLUE + "Target url (ex. https://google.com/) >> ")
-custom_file = input(Fore.BLUE + "Are you have target links file? >> ")
 url = base_url + "sitemap.xml"
 print(Fore.GREEN + "Checking sitemap file...")
 time.sleep(2)
@@ -19,14 +18,13 @@ else:
     print(Fore.RED + "Sitemap not Found ! Exiting >>")
     time.sleep()
     os._exit(0)
-os.system(f"cat {custom_file} sitemap.txt > urls.txt")
 #################################################################
 time.sleep(2)
 os.system("clear")
 print(Fore.BLUE + "Wait scraping js files...")
 js = set()
 results = []
-for u in open("urls.txt"):
+for u in open("sitemap.txt"):
     for s in bs4.BeautifulSoup(requests.get(u.strip()).text,"html.parser").find_all("script"):
         if s.get("src"): js.add(urllib.parse.urljoin(u.strip(),s["src"]))
 open("js_found.txt","w").write("\n".join(sorted(js)))
